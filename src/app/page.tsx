@@ -15,7 +15,7 @@ const poppins = Poppins({
 export default function Home() {
   return (
     <main className={poppins.className}>
-      <div className="w-screen overflow-hidden">
+      <div className="w-screen h-screen overflow-hidden">
       <Image
       className="absolute w-screen max-h-40 object-cover overflow-clip pointer-events-none"
       src={upper}
