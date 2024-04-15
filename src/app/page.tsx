@@ -15,6 +15,7 @@ const poppins = Poppins({
 export default function Home() {
   return (
     <main className={poppins.className}>
+      <div className="w-screen">
       <Image
       className="absolute w-screen max-h-40 object-cover overflow-clip pointer-events-none"
       src={upper}
@@ -26,24 +27,24 @@ export default function Home() {
       height={156}
       width={300}
       alt="Khaki Kitchen" />
-      <p className="text-[#C14627] text-4xl mt-5 ml-5">Get Ready! Something really tasty is </p>
-      <p className="text-[#C14627] text-5xl mt-5 font-medium ">COMING SOON </p>
-      <p className="text-[#C14627] text-6xl mt-12 font-extrabold ">09&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;05&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2024</p>
+      <p className="text-[#C14627] text-lg md:text-4xl mt-5 ml-5">Get Ready! Something really tasty is </p>
+      <p className="text-[#C14627] text-2xl md:text-5xl mt-12 font-medium ">COMING SOON </p>
+      <p className="text-[#C14627] text-3xl md:text-6xl mt-12 font-extrabold ">09&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;05&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2024</p>
       <div className="flex flex-row mt-5 gap-10 w-fit items-center justify-center">
-        <a href="https://www.youtube.com/@TheKhakiKitchen">
+        <a href="https://www.youtube.com/@TheKhakiKitchen" target="_blank">
         <Image
         src={youtube}
         alt="youtube"
         width={135}
         />
         </a>
-        <a href="https://www.instagram.com/thekhakikitchen/">
+        <a href="https://www.instagram.com/thekhakikitchen/" target="_blank">
         <Image
         src={instagram}
         alt="instagram"
         width={135} />
         </a>
-         <a href="https://chat.whatsapp.com/BpIyS12ahv9J9vSiSJAnBH">
+         <a href="https://chat.whatsapp.com/BpIyS12ahv9J9vSiSJAnBH" target="_blank">
         <Image
         src={whatsapp}
         alt="whatsapp"
@@ -56,6 +57,7 @@ export default function Home() {
     className="absolute w-screen max-h-40 object-cover overflow-clip pointer-events-none inset-x-0 bottom-0 "
     src={bottom}
     alt="bottom" />
+    </div>
     </main>
       );
 }
