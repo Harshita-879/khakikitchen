@@ -17,7 +17,7 @@ export default function Home() {
     <main className={poppins.className}>
       <div className="w-screen h-screen overflow-hidden">
       <Image
-      className="absolute w-screen h-52 lg:h-auto lg:max-h-40 object-cover overflow-clip pointer-events-none"
+      className="absolute w-screen h-1/4 lg:h-auto lg:max-h-40 object-cover overflow-clip pointer-events-none"
       src={upper}
       alt="upper" />
     <div className="flex flex-col justify-center items-center w-full bg-[#F8D1A6] min-h-screen max-h-screen">
@@ -54,7 +54,7 @@ export default function Home() {
       </div>
     </div>
     <Image
-    className="absolute w-screen h-52 lg:h-auto lg:max-h-40 object-cover overflow-clip pointer-events-none inset-x-0 bottom-0 "
+    className="absolute w-screen h-1/4 lg:h-auto lg:max-h-40 object-cover overflow-clip pointer-events-none inset-x-0 bottom-0 "
     src={bottom}
     alt="bottom" />
     </div>
