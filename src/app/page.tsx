@@ -17,20 +17,20 @@ export default function Home() {
     <main className={poppins.className}>
       <div className="w-screen h-screen overflow-hidden">
       <Image
-      className="absolute w-screen max-h-40 object-cover overflow-clip pointer-events-none"
+      className="absolute w-screen h-52 lg:h-auto lg:max-h-40 object-cover overflow-clip pointer-events-none"
       src={upper}
       alt="upper" />
     <div className="flex flex-col justify-center items-center w-full bg-[#F8D1A6] min-h-screen max-h-screen">
-      <div className="flex flex-col justify-center items-center z-10 mt-20">
+      <div className="flex flex-col justify-center items-center z-10 lg:mt-20">
       <Image
       src={khaki}
       height={156}
       width={300}
       alt="Khaki Kitchen" />
-      <p className="text-[#C14627] text-lg md:text-4xl mt-5 ml-5">Get Ready! Something really tasty is </p>
-      <p className="text-[#C14627] text-2xl md:text-5xl mt-12 font-medium ">COMING SOON </p>
-      <p className="text-[#C14627] text-3xl md:text-6xl mt-12 font-extrabold ">09&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;05&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2024</p>
-      <div className="flex flex-row mt-5 gap-10 w-fit items-center justify-center">
+      <p className="text-[#C14627] text-2xl md:text-4xl mt-5 mx-2 lg:mx-0 lg:ml-5 text-center">Get Ready! Something really tasty is </p>
+      <p className="text-[#C14627] text-5xl md:text-5xl mt-5 lg:mt-12 font-medium ">COMING SOON </p>
+      <p className="text-[#C14627] text-3xl md:text-6xl mt-5 lg:mt-12 font-extrabold ">09&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;05&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2024</p>
+      <div className="w-9/12 lg:w-auto flex flex-row mt-5 gap-10 w-fit items-center justify-center">
         <a href="https://www.youtube.com/@TheKhakiKitchen" target="_blank">
         <Image
         src={youtube}
@@ -54,7 +54,7 @@ export default function Home() {
       </div>
     </div>
     <Image
-    className="absolute w-screen max-h-40 object-cover overflow-clip pointer-events-none inset-x-0 bottom-0 "
+    className="absolute w-screen h-52 lg:h-auto lg:max-h-40 object-cover overflow-clip pointer-events-none inset-x-0 bottom-0 "
     src={bottom}
     alt="bottom" />
     </div>
