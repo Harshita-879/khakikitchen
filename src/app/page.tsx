@@ -20,7 +20,7 @@ export default function Home() {
       className="absolute w-screen max-h-40 object-cover overflow-clip pointer-events-none"
       src={upper}
       alt="upper" />
-    <div className="flex flex-col justify-center items-center w-full bg-[#F8D1A6] min-h-screen">
+    <div className="flex flex-col justify-center items-center w-full bg-[#F8D1A6] min-h-screen max-h-screen">
       <div className="flex flex-col justify-center items-center z-10 mt-20">
       <Image
       src={khaki}
